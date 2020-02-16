@@ -1,3 +1,35 @@
-body {
-    background: #F29F05
+html,body {
+    width: 100%;
+    height: 100%;
+    background: #F29F05;
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    height: 100%;
+    text-align: center;
+    
+}
+
+.target {
+    height:40px;
+    max-width: 650px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+h1 {
+    font-size: 5vw;;
+}
+
+
+#sub {
+    background: #ccc;
+    height: 100%;
 }
