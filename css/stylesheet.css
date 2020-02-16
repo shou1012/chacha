@@ -9,7 +9,7 @@ html,body {
 #hero {
     height: 100%;
     text-align: center;
-    
+
 }
 
 .target {
@@ -32,4 +32,27 @@ h1 {
 #sub {
     background: #ccc;
     height: 100%;
+}
+
+.member{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#members h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 100px 0;
+}
+
+#members h3{
+    display: inline-block;
+    font-size: 30px;
+    width: 30%;
+    text-align: center;
+}
+
+#members img{
+    width: 400px;
 }
