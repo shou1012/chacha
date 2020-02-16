@@ -33,3 +33,10 @@ h1 {
     background: #ccc;
     height: 100%;
 }
+
+footer {
+    height: 100px;
+    padding-top: 60px;
+    background: #aaa;
+    text-align: center;
+}
