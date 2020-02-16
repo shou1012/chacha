@@ -51,11 +51,11 @@ footer {
     background: #028bed;
     opacity: 0.6;
     border-radius: 50%;
-    transition: 0.4s ;
 }
 
 #pagetop:hover{
     background: #6eb1e0;
+    transition: 0.4s ;
 }
 
 
