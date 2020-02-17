@@ -88,9 +88,6 @@ footer {
     position: relative;
     overflow: hidden;
     margin: 10% 0;
-    padding: 80px 0;
-    top:40%;
-    padding: 140%;
 }
 
 .hero:before {
@@ -118,20 +115,11 @@ footer {
 }
 
 
-@media (max-width: 1000px) {
-    .hero {
-        padding: 30%;
-    }
-    
-    .hero_inner_img {
-        right: 0;
-    }
-}
-
 
 @media (min-width: 1000px) {
     .hero {
         padding: 10%;
+        top:15%;
     }
     
     .hero_inner_img {
@@ -139,4 +127,29 @@ footer {
     }
 
 }
+
+@media (max-width: 1650px) {
+    .hero {
+        top:28%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .hero {
+        padding: 30%;
+        top:30%;
+    }
+    
+    .hero_inner_img {
+        right: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero {
+        top:30%;
+    }
+}
+
+
 
