@@ -111,10 +111,20 @@ footer {
     z-index: -1;
 }
 
+.hero_inner_img {
+    position: absolute;
+    max-width: 500px;
+    width: 100%;
+}
+
 
 @media (max-width: 1000px) {
     .hero {
         padding: 30%;
+    }
+    
+    .hero_inner_img {
+        right: 0;
     }
 }
 
@@ -123,5 +133,10 @@ footer {
     .hero {
         padding: 10%;
     }
+    
+    .hero_inner_img {
+        right: 40px;
+    }
+
 }
 
