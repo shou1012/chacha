@@ -125,8 +125,10 @@ footer {
     max-width: 500px;
     width: 100%;
     left: 10px;
-    bottom: 750px;
+    top: 290px;
 }
+
+
 
 @media (min-width: 1000px) {
     .hero {
