@@ -114,12 +114,10 @@ footer {
     width: 100%;
 }
 
-
-
 @media (min-width: 1000px) {
     .hero {
-        padding: 10%;
-        top:15%;
+        padding: 5%;
+        top:0%;
     }
     
     .hero_inner_img {
@@ -130,14 +128,14 @@ footer {
 
 @media (max-width: 1650px) {
     .hero {
-        top:28%;
+        top:0%;
     }
 }
 
 @media (max-width: 1000px) {
     .hero {
         padding: 30%;
-        top:30%;
+        top:-10%;
     }
     
     .hero_inner_img {
@@ -145,11 +143,22 @@ footer {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .hero {
-        top:30%;
+        padding: 30%;
+        top:3%;
     }
 }
 
+@media (max-width: 500px) {
+    .hero {
+        top:10%;
+    }
+}
+
+.logo {
+    max-width: 700px;
+    width: 100%;
+}
 
 
