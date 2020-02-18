@@ -178,12 +178,20 @@ html,body {
 
 /* コンテンツ部分 */
 #sub {
-    background: #ccc;
-    height: 100%;
+    position: absolute;
+    top: 100%;
+    background: #FFC137;
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    padding-bottom: 100px;
 }
+
 
 /* フッター部分 */
 footer {
+    position: absolute;
+    width: 100%;
     height: 100px;
     padding-top: 60px;
     background: #aaa;
