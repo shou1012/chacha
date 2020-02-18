@@ -93,7 +93,7 @@ footer {
 .hero {
     position: relative;
     overflow: hidden;
-    margin: 10% 0;
+    margin: 0;
 }
 
 .hero:before {
