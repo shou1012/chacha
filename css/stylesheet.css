@@ -5,12 +5,15 @@ html,body {
     padding: 0;
 }
 
+html {
+    overflow-x: hidden;
+}
 
 /* ヒーロー部分 */
 #hero {
     height: 100%;
     text-align: center;
-    
+
 }
 
 .logo {
@@ -177,14 +180,43 @@ html,body {
 
 
 /* コンテンツ部分 */
-#sub {
+#members {
     position: absolute;
     top: 100%;
     background: #FFC137;
     width: 100%;
     min-height: 600px;
     height: auto;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
+}
+
+@media screen and (max-width: 450px) {
+    #members {
+        top: 90%;
+    }
+}
+
+.member{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#members h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 100px 0;
+}
+
+#members h3{
+    display: inline-block;
+    font-size: 30px;
+    width: 30%;
+    text-align: center;
+}
+
+#members img{
+    width: 400px;
 }
 
 
