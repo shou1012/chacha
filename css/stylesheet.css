@@ -196,29 +196,58 @@ html {
     }
 }
 
-.member{
-    width: 60%;
+#member {
+    padding-top: 20px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f0f3f8;
+}
+
+#member-list {
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#members h2{
+
+.member-content {
+    width: 280px;
+    height: 360px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: #ffffff;
     text-align: center;
-    font-size: 50px;
-    padding: 100px 0;
+    padding: 30px;
+    margin: 10px 10px 10px 10px;
+    
+    position:relative; 
+    border: 1px #eee solid;
 }
 
-#members h3{
-    display: inline-block;
-    font-size: 30px;
-    width: 30%;
-    text-align: center;
+.member-img {
+    padding-top: 10px;
+    width: 80px;
+    border-radius: 50%;
 }
 
-#members img{
-    width: 400px;
+.member-name {
+    font-size: 24px;
+    font-weight:bolder;
 }
 
+.member-text {
+    border-top: 1px #aaaaaa solid;
+    font-size: 10px;
+    color: #999;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+    overflow: hidden;
+    padding-top: 10px;
+    margin-top: 16px;
+}
 
 /* フッター部分 */
 footer {
