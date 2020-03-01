@@ -284,7 +284,7 @@ a span {
 
 .member-text {
     border-top: 1px #aaaaaa solid;
-    font-size: 10px;
+    font-size: 14px;
     color: #999;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -292,6 +292,7 @@ a span {
     overflow: hidden;
     padding-top: 10px;
     margin-top: 16px;
+    padding-bottom: 10px;
 }
 
 /* フッター部分 */
@@ -303,4 +304,13 @@ footer {
     padding-top: 60px;
     background: #aaa;
     text-align: center;
+}
+
+a,a:visited {
+    color: #0000cd;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #8a8ad1;
 }
